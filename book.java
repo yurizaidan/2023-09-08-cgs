@@ -51,5 +51,8 @@ public class Livros {
     public void setAnoPublicacao(int anoPublicacao){
         this.anoPublicacao=anoPublicacao;
     }
+public String toString(){
+        return "Identificação: " + identificacao + "\n Nome:" +nome + "\n Data de aquisição: "+ dataAquisicao+"\n Autores: "+Autores+"\n Nome da editora: "+ nomeEditora+"\n Ano de publicação: "+anoPublicacao;
+    }
 }
 
